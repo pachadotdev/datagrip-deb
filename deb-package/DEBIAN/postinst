@@ -1,0 +1,6 @@
+#!/bin/bash
+
+printf '#!/bin/bash\n/opt/datagrip/bin/datagrip.sh\n' | tee /usr/bin/datagrip
+chmod a+x /usr/bin/datagrip
+
+printf '[Desktop Entry]\nName=Datagrip\nVersion=2018.2.1\nExec=/usr/bin/datagrip\nComment=Application for databases\nIcon=/opt/datagrip/datagrip.png\nType=Application\nTerminal=true\nStartupNotify=false\nEncoding=UTF-8\nCategories=Utility;\n' | tee '/usr/share/applications/datagrip.desktop'

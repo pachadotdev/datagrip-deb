@@ -1,0 +1,6 @@
+#!/bin/bash
+
+case "$1" in (remove)
+	rm /usr/bin/datagrip /usr/share/applications/datagrip.desktop
+	rm -rf /opt/datagrip
+esac

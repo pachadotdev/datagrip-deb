@@ -1,0 +1,10 @@
+Package: datagrip
+Version: 2018.2.1
+Maintainer: Mauricio Vargas <mvargas@dcc.uchile.cl>
+Section: utils
+Source: datagrip
+Homepage: https://www.jetbrains.com/datagrip/
+Architecture: amd64
+Priority: optional
+Depends: default-jre
+Description:Database IDE that is tailored to suit specific needs of professional SQL developers.

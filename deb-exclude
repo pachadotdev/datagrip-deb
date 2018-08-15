@@ -1,0 +1,7 @@
+.git
+.gitignore
+.travis.yml
+appveyor.yml
+DEBIAN
+deb-exclude
+deb-creation.sh

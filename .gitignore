@@ -1,0 +1,5 @@
+datagrip.deb
+deb-package/opt/datagrip/bin
+deb-package/opt/datagrip/jre64
+deb-package/opt/datagrip/lib
+deb-package/opt/datagrip/plugins
